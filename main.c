@@ -1,9 +1,9 @@
 #include <stdio.h>
-#include <stdbool.h>
+#include "conversoes.h"
 
 int main(){
     int selecao;
-    bool validacao;
+    int validacao;
 
     do {
         printf("_____________Conversor de unidade de medida em C _____________|\n");
@@ -16,7 +16,6 @@ int main(){
         printf("|_____________________________________________________________|\n");
         printf(">>> ");
         scanf("%d", &selecao);
-        printf("%d", selecao);
 
         switch (selecao)
         {
@@ -30,14 +29,15 @@ int main(){
             printf("Executando conversão de volume\n");
             break;
         case 4:
-            printf("Executando conversão de temperatura\n");
+            printf("\nExecutando conversão de temperatura\n");
+            escolherConversaoTemperatura();
             break;
         case 5:
             printf("%f", velocidade());
             break;
         case 6:
             printf("Programa executado com sucesso!\n");
-            validacao = false;
+            validacao = 0;
             break;
         default:
             break;
