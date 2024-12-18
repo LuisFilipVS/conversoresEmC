@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "conversoes.h"
 
 int main(){
     int selecao;
@@ -27,7 +28,8 @@ int main(){
             printf("Executando conversão de volume\n");
             break;
         case 4:
-            printf("Executando conversão de temperatura\n");
+            printf("\nExecutando conversão de temperatura\n");
+            escolherConversaoTemperatura();
             break;
         case 5:
             printf("Programa executado com sucesso!\n");
