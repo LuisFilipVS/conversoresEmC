@@ -2,7 +2,7 @@
 
 int main(){
     int selecao;
-    int validacao;
+    int validacao = 1;
 
     do {
         printf("_____________Conversor de unidade de medida em C _____________|\n");
