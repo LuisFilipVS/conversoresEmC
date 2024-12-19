@@ -33,7 +33,7 @@ int main(){
             escolherConversaoTemperatura();
             break;
         case 5:
-            printf("%f", velocidade());
+            conversorDeVelocidade();
             break;
         case 6:
             printf("Programa executado com sucesso!\n");

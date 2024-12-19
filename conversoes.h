@@ -10,4 +10,7 @@ float fahrenheitParaKelvin(float temperaturaFahrenheit);
 float kelvinParaCelsius(float temperaturaKelvin);
 float kelvinParaFahrenheit(float temperaturaKelvin);
 
+//VELOCIDADE
+float conversorDeVelocidade();
+
 #endif 
