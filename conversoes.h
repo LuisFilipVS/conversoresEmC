@@ -11,12 +11,16 @@ float kelvinParaCelsius(float temperaturaKelvin);
 float kelvinParaFahrenheit(float temperaturaKelvin);
 
 // COMPRIMENTO
-void escolherConversaoComprimento();
-float metrosParaCentimetros(float metros);
-float metrosParaMilimetros(float metros);
-float centimetrosParaMetros(float centimetros);
 
-// Funções de massa, volume, etc.
-// ...
+// MASSA
+void escolherConversaoMassa();
+float quilosParaGramas(float quilos);
+float quilosParaToneladas(float quilos);
+float gramasParaQuilos(float gramas);
+float gramasParaToneladas(float gramas);
+float toneladasParaQuilos(float toneladas);
+float toneladasParaGramas(float toneladas);
+
+// VOLUME
 
 #endif

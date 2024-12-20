@@ -20,10 +20,10 @@ int main(){
         {
         case 1:
             printf("Executando conversão de comprimento\n");
-            escolherConversaoComprimento();
             break;
         case 2:
             printf("Executando conversão de massa\n");
+            escolherConversaoMassa();
             break;
         case 3:
             printf("Executando conversão de volume\n");
