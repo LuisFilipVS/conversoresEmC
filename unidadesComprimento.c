@@ -5,8 +5,6 @@
 void converterComprimento(){
 
     int opcao, validacao = 1;
-    
-    system("cls"); 
 
     do{
         printf("\n|____________Conversor de Comprimento____________|\n"
