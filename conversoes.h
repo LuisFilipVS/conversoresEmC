@@ -11,8 +11,17 @@ float kelvinParaCelsius(float temperaturaKelvin);
 float kelvinParaFahrenheit(float temperaturaKelvin);
 
 
+// COMPRIMENTO
+void tabelaComprimento(double);
+void obterComprimento(int);
+void cabecalhoComprimento(int);
+void converterComprimento(void);
+
+
+
 //VELOCIDADE
 float conversorDeVelocidade();
 
 #endif
+
 
