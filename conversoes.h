@@ -10,8 +10,6 @@ float fahrenheitParaKelvin(float temperaturaFahrenheit);
 float kelvinParaCelsius(float temperaturaKelvin);
 float kelvinParaFahrenheit(float temperaturaKelvin);
 
-// COMPRIMENTO
-
 // MASSA
 void escolherConversaoMassa();
 float quilosParaGramas(float quilos);
@@ -23,4 +21,19 @@ float toneladasParaGramas(float toneladas);
 
 // VOLUME
 
+
+// COMPRIMENTO
+void tabelaComprimento(double);
+void obterComprimento(int);
+void cabecalhoComprimento(int);
+void converterComprimento(void);
+
+
+
+//VELOCIDADE
+float conversorDeVelocidade();
+
+
 #endif
+
+

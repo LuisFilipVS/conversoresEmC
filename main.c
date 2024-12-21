@@ -11,7 +11,8 @@ int main(){
         printf("|Insira 2: Converter Unidade De massa (kg, gr, Ton)           |\n");
         printf("|Insira 3: Converter Unidade De volume (l, ml, m3)            |\n");
         printf("|Insira 4: Converter Unidade De temperatura (C, F, K)         |\n");
-        printf("|Insira 5: Sair                                               |\n");
+        printf("|Insira 5: Converter Unidade De velocidade (Km/h, m/s, mph)   |\n");
+        printf("|Insira 6: Sair                                               |\n");
         printf("|_____________________________________________________________|\n");
         printf(">>> ");
         scanf("%d", &selecao);
@@ -33,6 +34,9 @@ int main(){
             escolherConversaoTemperatura();
             break;
         case 5:
+            conversorDeVelocidade();
+            break;
+        case 6:
             printf("Programa executado com sucesso!\n");
             validacao = 0;
             break;
@@ -40,8 +44,6 @@ int main(){
             break;
         }
     } while (validacao);
-    
-
 
     return 0;
 }
