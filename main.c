@@ -1,7 +1,11 @@
 #include <stdio.h>
 #include "conversoes.h"
+#include <stdlib.h>
 
 int main(){
+
+    system("chcp 65001 > null");
+
     int selecao;
     int validacao;
 
@@ -17,10 +21,13 @@ int main(){
         printf(">>> ");
         scanf("%d", &selecao);
 
+        system("cls");
+
         switch (selecao)
         {
         case 1:
             printf("Executando conversão de comprimento\n");
+            converterComprimento();
             break;
         case 2:
             printf("Executando conversão de massa\n");
