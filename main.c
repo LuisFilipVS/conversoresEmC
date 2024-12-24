@@ -17,7 +17,7 @@ int main(){
         printf("|Insira 4: Converter Unidade De temperatura (C, F, K)         |\n");
         printf("|Insira 5: Converter Unidade De velocidade (Km/h, m/s, mph)   |\n");
         printf("|Insira 6: Converter Unidade De área (m^2, cm^2)              |\n");
-        printf("|Insira 7: Converter Unidade De                              |\n");
+        printf("|Insira 7: Converter Unidade De                               |\n");
         printf("|Insira 8: Sair                                               |\n");
         printf("|_____________________________________________________________|\n");
         printf(">>> ");
