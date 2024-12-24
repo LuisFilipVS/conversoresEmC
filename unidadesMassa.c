@@ -1,3 +1,33 @@
+//================================================================================
+//                                unidadesMassa.c
+//================================================================================
+//
+// Autor: Lucas Dias da Silva
+//
+// Este programa realiza conversões entre diferentes unidades de massa, como:
+// - Quilogramas para gramas e toneladas;
+// - Gramas para quilogramas e toneladas;
+// - Toneladas para quilogramas e gramas.
+//
+// Funcionamento:
+// - O programa apresenta um menu interativo para o usuário selecionar a conversão desejada.
+// - Após a escolha, o usuário insere o valor a ser convertido.
+// - O programa realiza o cálculo e exibe o resultado.
+//
+// Estrutura do menu:
+// 1. Quilos -> Gramas
+// 2. Quilos -> Toneladas
+// 3. Gramas -> Quilos
+// 4. Gramas -> Toneladas
+// 5. Toneladas -> Quilos
+// 6. Toneladas -> Gramas
+//
+// Benefícios:
+// - Fácil de usar e ideal para aplicações em cálculos rápidos de conversão de massa.
+//
+// Inclui: <stdio.h> para funções de entrada/saída.
+//
+
 ﻿#include <stdio.h>
 #include "conversoes.h"
 
