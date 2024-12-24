@@ -1,3 +1,20 @@
+//===========================================================================================
+//                                    unidadesComprimento.c
+//===========================================================================================
+
+//Autor: Davi Erlon Lopes de Morais
+
+// Este arquivo contém as funções desenvolvidas para a conversão das unidades de comprimento
+//do sistema internacional de medidas e do sistema imperial de medidas mais utilizadas, totalizando
+//7 medidas. A lógica por trás deste programa se resume em uma interface que permite ao usuário
+//escolher a unidade que deseja converter, chamando em seguida uma função que imprime um cabeçalho
+//feito propositalmente separado para a variável <const char *cabecalho[]>, que é grande, não estar
+//sempre alocada na pilha de execução ocupando memória, logo depois chamando uma função que lê o valor
+//da unidade escolhida, que a converte para uma unidade comum para evitar um código muito grande cheio
+//de funções, que, por fim, chama uma função que imprime uma tabela com todas as medidas já convertidas
+//com base nessa unidade comum, que foi escolhida centímetro mas também poderia ser qualquer outra.
+
+
 #include <stdio.h>
 #include <stdlib.h>
 #include "conversoes.h"
@@ -37,7 +54,7 @@ void converterComprimento(){
     } while(validacao);
 }
 
-void cabecalhoComprimento(int indice){
+void cabecalhoComprimento(int indice){ //como a constante de cabeçalho é grande, esta foi feita apenas para imprimí-la e ser desalocada
 
     const char *cabecalho[] = {
         "\n|___________________Centímetro___________________|\n\n",
@@ -61,7 +78,7 @@ void obterComprimento(int opc){
 
     scanf("%lf", &comprimento);
 
-    switch(opc){
+    switch(opc){ //switch que converte qualquer unidade para centímetro
     case 1:
         medidaComum = comprimento;
         break;
@@ -85,7 +102,7 @@ void obterComprimento(int opc){
         break;
     }
 
-    tabelaComprimento(medidaComum);
+    tabelaComprimento(medidaComum); //chamada de uma função aceita valor em centímetro e imprime uma tabela 
 }
 
 void tabelaComprimento(double cm){

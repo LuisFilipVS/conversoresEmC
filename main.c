@@ -41,6 +41,7 @@ int main(){
             escolherConversaoTemperatura();
             break;
         case 5:
+            printf("\nExecutando conversão de velocidade");
             conversorDeVelocidade2();
             break;
         case 6:

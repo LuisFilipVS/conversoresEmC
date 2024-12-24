@@ -28,7 +28,7 @@
 // Inclui: <stdio.h> para funções de entrada/saída.
 //
 
-﻿#include <stdio.h>
+#include <stdio.h>
 #include "conversoes.h"
 
 void escolherConversaoMassa() {
