@@ -107,12 +107,16 @@ void obterComprimento(int opc){
 
 void tabelaComprimento(double cm){
     printf( "\n\n__________Tabela de conversão__________\n"
-            "|Centímetro --------------- %lf |\n"
-            "|Metro -------------------- %lf |\n"
-            "|Quilômetro --------------- %lf |\n"
-            "|Polegada ----------------- %lf |\n"
-            "|Pés ---------------------- %lf |\n"
-            "|Jarda -------------------- %lf |\n"
-            "|Milha -------------------- %lf |\n"
-            "|_________________________________________\n", (cm), (cm / 100.0), (cm / 100000.0), (cm / 2.52), (cm / 30.48), (cm / 91.44), (cm / 160934.4));
+            "|Centímetro --------------- %lf \n"
+            "|Metro -------------------- %lf \n"
+            "|Quilômetro --------------- %lf \n"
+            "|Polegada ----------------- %lf \n"
+            "|Pés ---------------------- %lf \n"
+            "|Jarda -------------------- %lf \n"
+            "|Milha -------------------- %lf \n"
+            "|______________________________________\n", (cm), (cm / 100.0), (cm / 100000.0), (cm / 2.52), (cm / 30.48), (cm / 91.44), (cm / 160934.4));
+            printf("\nTecle Enter para voltar!\n");
+            getchar(); //limpa o buffer
+            getchar(); //lê qualquer tecla para continuar o programa
+            system("cls");
 }
