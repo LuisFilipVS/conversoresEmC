@@ -31,7 +31,11 @@ void converterComprimento(void);
 
 
 //VELOCIDADE
-float conversorDeVelocidade();
+void conversorDeVelocidade2();
+float MPSparaKMPH(float medida);
+float MPSparaMPH(float medida);
+float KMPHparaMPS(float medida);
+float MPHparaMPS(float medida);
 
 
 #endif
