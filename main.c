@@ -7,7 +7,7 @@ int main(){
     system("chcp 65001 > null");
 
     int selecao;
-    int validacao;
+    int validacao = 1;
 
     do {
         printf("_____________Conversor de unidade de medida em C _____________|\n");
