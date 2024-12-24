@@ -41,7 +41,7 @@ int main(){
             escolherConversaoTemperatura();
             break;
         case 5:
-            conversorDeVelocidade();
+            conversorDeVelocidade2();
             break;
         case 6:
             printf("Programa executado com sucesso!\n");
