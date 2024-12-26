@@ -17,15 +17,16 @@ float toneladasParaQuilos(float toneladas);
 float toneladasParaGramas(float toneladas);
 
 // VOLUME
-
+void conversorVolume();
+float converte_litros_m3(float litros);
+float converte_mililitros_litros(float mililitros);
+float converte_galoes_litros(float galoes);
 
 // COMPRIMENTO
 void tabelaComprimento(double);
 void obterComprimento(int);
 void cabecalhoComprimento(int);
 void converterComprimento(void);
-
-
 
 //VELOCIDADE
 void conversorDeVelocidade();
@@ -34,15 +35,14 @@ float MPSparaMPH(float medida);
 float KMPHparaMPS(float medida);
 float MPHparaMPS(float medida);
 
-
 //AREA
 void conversorArea();
 double metrosQuadradosParaCentimetrosQuadrados(double metros);
 double centimetrosQuadradosParaMetrosQuadrados(double centimetros);
 
-
 //INFORMACAO
 void conversorInformacao();
+
 #endif
 
 

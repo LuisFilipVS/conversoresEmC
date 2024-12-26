@@ -1,3 +1,13 @@
+//===========================================================================================
+//                                    unidadesInformacao.c
+//===========================================================================================
+
+//Autor: Eduardo Ferreira Neves Rocha
+
+//Este arquivo apresenta funções que serão utilizadas para realizar conversões
+//em medidas de bits de informação, sendo eles bit, byte, KiloByte, MegaByte, GigaByte,
+//TeraByte
+
 #include <stdio.h>
 #include <string.h>
 
