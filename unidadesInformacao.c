@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-int main(){
+int conversorInformacao(){
 int Unidade1;
 int Unidade2;
 float bit;

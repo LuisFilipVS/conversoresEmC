@@ -1,5 +1,5 @@
-all: unidadesTemperatura.o unidadesVelocidade.o unidadesMassa.o unidadesComprimento.o
-	gcc unidadesTemperatura.o unidadesVelocidade.o unidadesMassa.o unidadesComprimento.o main.c -o main
+all: unidadesTemperatura.o unidadesVelocidade.o unidadesMassa.o unidadesComprimento.o Unidadeconversor_area.o unidadesInformacao.o
+	gcc unidadesTemperatura.o unidadesVelocidade.o unidadesMassa.o unidadesComprimento.o Unidadeconversor_area.o unidadesInformacao.o main.c -o main
 	del *.o
 	.\main
 
@@ -14,5 +14,12 @@ unidadesMassa.o: conversoes.h
 
 unidadesComprimento.o: conversoes.h
 	gcc -c unidadesComprimento.c
+
+Unidadeconversor_area.o: conversoes.h
+	gcc -c Unidadeconversor_area.c
+
+unidadesInformacao.o: conversoes.h
+	gcc -c unidadesInformacao.c
+
 
 

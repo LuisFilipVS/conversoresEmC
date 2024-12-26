@@ -21,12 +21,7 @@
 #include "conversoes.h"
 #include <string.h>
 
-float MPSparaKMPH(float medida);
-float MPSparaMPH(float medida);
-float KMPHparaMPS(float medida);
-float MPHparaMPS(float medida);
-
-void conversorDeVelocidade2(){
+void conversorDeVelocidade(){
     int seletorOrigem, seletorDestino;
     float valorInicial, valorFinal;
 
@@ -60,14 +55,14 @@ void conversorDeVelocidade2(){
             printf("Insira o valor em km/h :\n");
             printf(">>> ");
             scanf("%f", &valorInicial);
-            printf("O valor convertido de Km/h %f para m/s eh %f", valorInicial, KMPHparaMPS(valorInicial));
+            printf("O valor convertido de Km/h %f para m/s eh %f\n", valorInicial, KMPHparaMPS(valorInicial));
 
         } else if(seletorDestino == 3){
             printf("Insira o valor em km/h :\n");
             printf(">>> ");
             scanf("%f", &valorInicial);
             valorFinal = KMPHparaMPS(valorInicial);
-            printf("O valor convertido de Km/h %f para mph eh %f", valorInicial, MPSparaMPH(valorFinal));
+            printf("O valor convertido de Km/h %f para mph eh %f\n", valorInicial, MPSparaMPH(valorFinal));
         }
         break;
     case 2:
@@ -75,13 +70,13 @@ void conversorDeVelocidade2(){
             printf("Insira o valor em m/s :\n");
             printf(">>> ");
             scanf("%f", &valorInicial);
-            printf("O valor convertido de m/s %f para km/h eh %f", valorInicial, MPSparaKMPH(valorInicial));
+            printf("O valor convertido de m/s %f para km/h eh %f\n", valorInicial, MPSparaKMPH(valorInicial));
 
         } else if(seletorDestino == 3){
             printf("Insira o valor em m/s :\n");
             printf(">>> ");
             scanf("%f", &valorInicial);
-            printf("O valor convertido de m/s %f para mph eh %f", valorInicial, MPSparaMPH(valorInicial));
+            printf("O valor convertido de m/s %f para mph eh %f\n", valorInicial, MPSparaMPH(valorInicial));
         }
         break;
     case 3:
@@ -90,13 +85,13 @@ void conversorDeVelocidade2(){
             printf(">>> ");
             scanf("%f", &valorInicial);
             valorFinal = MPHparaMPS(valorInicial);
-            printf("O valor convertido de mph %f para km/h eh %f", valorInicial, MPSparaKMPH(valorFinal));
+            printf("O valor convertido de mph %f para km/h eh %f\n", valorInicial, MPSparaKMPH(valorFinal));
 
         } else if(seletorDestino == 2){
             printf("Insira o valor em m/s :\n");
             printf(">>> ");
             scanf("%f", &valorInicial);
-            printf("O valor convertido de mph %f para m/s eh %f", valorInicial, MPHparaMPS(valorInicial));
+            printf("O valor convertido de mph %f para m/s eh %f\n", valorInicial, MPHparaMPS(valorInicial));
         }
         break;
     default:

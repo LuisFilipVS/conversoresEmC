@@ -17,7 +17,7 @@ int main(){
         printf("|Insira 4: Converter Unidade De temperatura (C, F, K)         |\n");
         printf("|Insira 5: Converter Unidade De velocidade (Km/h, m/s, mph)   |\n");
         printf("|Insira 6: Converter Unidade De área (m^2, cm^2)              |\n");
-        printf("|Insira 7: Converter Unidade De                               |\n");
+        printf("|Insira 7: Converter Unidade De Bits de informação(B,KB,MB)   |\n");
         printf("|Insira 8: Sair                                               |\n");
         printf("|_____________________________________________________________|\n");
         printf(">>> ");
@@ -44,14 +44,16 @@ int main(){
             break;
         case 5:
             printf("\nExecutando conversão de velocidade\n");
-            conversorDeVelocidade2();
+            conversorDeVelocidade();
             break;
         case 6:
             printf("\nExecutando conversão de área\n");
+            conversorArea();
 
             break;
         case 7:
-
+            printf("\nExecutando conversão de área\n");
+            conversorInformacao();
             break;
         case 8:
             printf("Programa executado com sucesso!\n");
