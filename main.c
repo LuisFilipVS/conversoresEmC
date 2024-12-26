@@ -37,6 +37,7 @@ int main(){
             break;
         case 3:
             printf("Executando conversão de volume\n");
+            conversorVolume();
             break;
         case 4:
             printf("\nExecutando conversão de temperatura\n");
@@ -49,10 +50,9 @@ int main(){
         case 6:
             printf("\nExecutando conversão de área\n");
             conversorArea();
-
             break;
         case 7:
-            printf("\nExecutando conversão de área\n");
+            printf("\nExecutando conversão de informacao\n");
             conversorInformacao();
             break;
         case 8:
