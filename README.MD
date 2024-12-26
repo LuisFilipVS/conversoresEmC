@@ -31,6 +31,7 @@ mingw32-make
 3. Joabe Nascimento
 4. Lucas Dias da Silva
 5. Luis Filipe Vieira Silva
-6. Neilma De Jesus Santos
-7. Túlio Macêdo Oliveira dos Santos
+6. Marco Túlio Macêdo Oliveira dos Santos
+7. Neilma De Jesus Santos
+
 
