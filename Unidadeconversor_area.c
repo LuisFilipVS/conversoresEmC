@@ -1,9 +1,19 @@
+//===========================================================================================
+//                                    unidadesArea.c
+//===========================================================================================
+
+// Autor: Joabe Nascimento
+
+// O #include <stdio.h> é utilizado para incluir a biblioteca padrão de entrada e saída em C, 
+// permitindo o uso de funções como printf() para exibir mensagens no console e scanf() para 
+// receber entradas do usuário. Essa biblioteca é essencial para a interação com o usuário
+// no programa, como neste conversor de unidades de área.
+
 #include <stdio.h>
 
 // Funções para conversão
 double metrosQuadradosParaCentimetrosQuadrados(double metros);
 double centimetrosQuadradosParaMetrosQuadrados(double centimetros);
-
 
 int main() {
     int opcao;
