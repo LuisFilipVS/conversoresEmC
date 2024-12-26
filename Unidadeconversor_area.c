@@ -15,7 +15,7 @@
 double metrosQuadradosParaCentimetrosQuadrados(double metros);
 double centimetrosQuadradosParaMetrosQuadrados(double centimetros);
 
-int main() {
+int conversorArea() {
     int opcao;
     double valor, resultado;
 

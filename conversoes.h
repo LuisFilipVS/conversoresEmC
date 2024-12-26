@@ -28,13 +28,21 @@ void converterComprimento(void);
 
 
 //VELOCIDADE
-void conversorDeVelocidade2();
+void conversorDeVelocidade();
 float MPSparaKMPH(float medida);
 float MPSparaMPH(float medida);
 float KMPHparaMPS(float medida);
 float MPHparaMPS(float medida);
 
 
+//AREA
+void conversorArea();
+double metrosQuadradosParaCentimetrosQuadrados(double metros);
+double centimetrosQuadradosParaMetrosQuadrados(double centimetros);
+
+
+//INFORMACAO
+void conversorInformacao();
 #endif
 
 
