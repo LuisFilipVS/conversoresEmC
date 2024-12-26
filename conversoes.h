@@ -3,12 +3,9 @@
 
 // TEMPERATURA
 void escolherConversaoTemperatura();
-float celsiusParaFahrenheit(float temperaturaCelsius);
-float celsiusParaKelvin(float temperaturaCelsius);
-float fahrenheitParaCelsius(float temperaturaFahrenheit);
-float fahrenheitParaKelvin(float temperaturaFahrenheit);
-float kelvinParaCelsius(float temperaturaKelvin);
-float kelvinParaFahrenheit(float temperaturaKelvin);
+float *conversoesCelsius(float temperaturaCelsius);
+float *conversoesFahrenheit(float temperaturaFahrenheit);
+float *conversoesKelvin(float temperaturaKelvin);
 
 // MASSA
 void escolherConversaoMassa();
